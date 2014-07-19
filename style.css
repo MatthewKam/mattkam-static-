@@ -69,17 +69,6 @@ color: green;
 .arrowdown:hover{
 	background-image: url("img/darrow2.png");
 }
-.uparrow{
-	background-image: url("img/uarrow1.png");
-	height: 50px;
-	width:50px;	
-	background-size: contain;
-	background-repeat:no-repeat;
-	position:absolute;
-}
-.uparrow:hover{
-	background-image: url("img/uarrow2.png");
-}
 div#land{
 	z-index: 1007;
 	left:20px;
@@ -97,10 +86,6 @@ div#port {
 	left: 20px;
 	z-index: 1007;
 }
-div#page{
-	left: 20px;
-	margin-top: 20px;
-}
 div#sk{
 	left:20px;
 	margin-top: 20px;
@@ -113,24 +98,27 @@ z-index: 1007;
 }
 .topbutton{
 	position:absolute;
-	font-family: 'Oswald';
-	color: #BBBCBF;
-	font-size: 40px;
     margin-top: 20px;
     right:20px;
     z-index: 1007;
-    text-decoration: none;
-    text-shadow:2px 2px 2px #676767;
 }
-.topbutton:hover{
-	color:green;
-	text-decoration: underline;
+.homearrow{
+	background-image: url("img/uparrow.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position:absolute;
+	margin-top: 0px;
+	right: 0px;
+	height: 80px;
+	width: 70px;
+}
+.homearrow:hover{
+	background-image: url("img/uparrow2.png");
 }
 .fixed{
 	position: fixed;
 	top: 0px;
 	right:20px;
-	font-size: 50px;
 }
 
 
