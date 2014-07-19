@@ -509,7 +509,6 @@ div#leftface:hover{
 	height:805px;
 	width:100%;
 	background:#454D59;
-	margin-bottom: -10px;
 	font-family: 'Oswald';
 }
 .sk{
@@ -632,7 +631,7 @@ h1#skills{
 }
 h1#ptitle {
 font-size: 150px;
-margin-top: -47px;
+margin-top: -57px;
 margin-left: 253px;
 text-align: left;
 position: absolute;
@@ -881,6 +880,11 @@ p.webdev-text:nth-child(3) {
 	height:464px;
 	padding-top:10px;
 	padding-left:64px;
+}
+.webdev-img.imac img:hover{
+height: 460px;
+padding-top: 12px;
+padding-left: 66px;
 }
 .webdev-text {
 	text-align: center;
