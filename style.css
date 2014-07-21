@@ -103,14 +103,14 @@ z-index: 1007;
     z-index: 1007;
 }
 .homearrow{
-	background-image: url("img/uparrow.png");
+	background-image: url("img/uparrow1.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	position:absolute;
 	margin-top: 0px;
 	right: 0px;
 	height: 80px;
-	width: 70px;
+	width: 53px;
 }
 .homearrow:hover{
 	background-image: url("img/uparrow2.png");
@@ -1756,6 +1756,29 @@ div.summary{
 	}
 	.contactme {
 		height: 585px;
+	}
+	p.topnav {
+		text-align: left;
+		left: 75px;
+		position: absolute;
+		z-index: 1007;
+		margin-top: 20px;
+		color: white;
+		font-size: 30px;
+	}
+	div.titles {
+		height: 120px;
+		bottom: 30px;
+	}
+	#gastro {
+		text-align: center;
+		margin-top: -20px;
+	}
+	.portfolio {
+		overflow: auto;
+	}
+	div#contact {
+		margin-left: 8px;
 	}
 }
 
