@@ -647,6 +647,7 @@ letter-spacing: -5px;
 	transform-style: preserve-3d;
 	text-align: center;
 	padding-top: 145px;
+	padding-bottom: 20px;
 }
 .link-to{
 	text-decoration: none;
