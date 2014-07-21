@@ -617,9 +617,8 @@ h1#skills{
 .portfolio{
 
 	width:100%;
-	height:805px;
+	height:auto;
 	background-color:white;
-	overflow:hidden;
 }
 .grid-wrap {
 	margin: 10px auto 0;
@@ -1156,11 +1155,16 @@ div.summary{
 	width: 390px;
 	margin-left: 6px;
 	}
+	.portfolio {
+		width: 100%;
+		height: auto;
+		background-color: white;
+		overflow: auto;
+	}
 	div#say {
 		width: 500px;
 		height: 500px;
 		margin-top: 140px;
-
 	}
 	div#contact{
 		width:550px;
@@ -1382,6 +1386,11 @@ div.summary{
 		padding-top:50px;
 		padding-left:105px;
 	}
+	.webdev-img.imac img:hover {
+		height: 340px;
+		padding-top: 48px;
+		padding-left: 95px;
+	}
 	.webdev-img {
 		height: 400px;
 		background-color: #ddd;
@@ -1425,6 +1434,36 @@ div.summary{
 	div#contact{
 		width: 400px;
 	}
+	div.titles {
+		height: 100px;
+		bottom: 30px;
+	}
+	#develop {
+		letter-spacing: 0px;
+	}
+	#photo {
+		text-align: center;
+		letter-spacing: 0px;
+	}
+	#food {
+		text-align: left;
+		letter-spacing: 0px;
+	}
+	#design {
+		text-align: right;
+		margin-right: 20px;
+		letter-spacing: 0px;
+	}
+	#illustrate {
+		text-align: right;
+		margin-right: 20px;
+		letter-spacing: 0px;
+	}
+	#gastro {
+		text-align: center;
+		margin-top: 80px;
+		letter-spacing: 0px;
+	}
 }
 @media screen and (max-width: 575px) {
 	div#say {
@@ -1444,6 +1483,16 @@ div.summary{
 		margin-top: 50px;
 		margin-bottom: -20px;
 	}
+	.aboutme {
+		height: auto;
+	}
+	h1#ptitle {
+		margin-left: 12%;
+	}
+	div.abowt#outabowt {
+	margin-top: -32px;
+	text-align: center;
+	}
 }
 @media screen and (max-width: 550px) {
 	div#say {
@@ -1461,6 +1510,11 @@ div.summary{
 		height:331px;
 		padding-top:50px;
 		padding-left:55px;
+	}
+	.webdev-img.imac img:hover {
+		height: 340px;
+		padding-top: 48px;
+		padding-left: 35px;
 	}
 	div.summary {
 		width: 450px;
@@ -1522,6 +1576,16 @@ div.summary{
 		color: white;
 		font-size: 40px;
 	}
+	#photo {
+		text-align: center;
+		letter-spacing: -7px;
+	}
+	div.sk.graphicdesign {
+		right: 15%;
+	}
+	div#contact {
+		margin-left: -10px;
+	}
 }
 @media screen and (max-width: 440px) {
 	.webdev-img.imac img{
@@ -1529,7 +1593,15 @@ div.summary{
 		padding-top:50px;
 		padding-left:16px;
 	}
-
+	.webdev-img.imac img:hover {
+		height: 308px;
+		padding-top: 48px;
+		padding-left: 25px;
+	}
+	#photo {
+		text-align: center;
+		letter-spacing: -13px;
+	}
 	div#say {
 		margin-left:-35px ;
 	}
@@ -1545,6 +1617,11 @@ div.summary{
 		width: 360px;
 		margin-top: 0px;
 		margin-bottom: -20px;
+	}
+	#gastro {
+		text-align: center;
+		margin-top: 80px;
+		letter-spacing: -1px;
 	}
 	div.sk.frontend {
 		margin-left: 128px;
@@ -1576,6 +1653,14 @@ div.summary{
 		height: 157px;
 	}
 }
+@media screen and (max-width: 440px) {
+	div#contact {
+		width: 360px;
+		margin-top: 0px;
+		margin-bottom: -20px;
+		margin-left: 10px;
+	}
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -1601,6 +1686,11 @@ div.summary{
 	.webdev-img {
 		height: 305px;
 		width: 300px;
+	}
+	.webdev-img.imac img:hover {
+		height: 238px;
+		padding-top: 48px;
+		padding-left: 25px;
 	}
 	div.summary {
 		width: 300px;
@@ -1774,9 +1864,7 @@ div.summary{
 		text-align: center;
 		margin-top: -20px;
 	}
-	.portfolio {
-		overflow: auto;
-	}
+
 	div#contact {
 		margin-left: 8px;
 	}
