@@ -528,7 +528,7 @@ div#leftface:hover{
 	display:inline-block;
 }
 div.sk.frontend{
-	background-image: url("img/frontend1.png");
+	background-image: url("img/frontend3.png");
 	float: left;
 	margin-top: 140px;
 	width: 410px;
@@ -556,7 +556,7 @@ div.sk.backend:hover{
 	margin-top: 125px;
 }
 div.sk.graphicdesign{
-	background-image: url("img/graphicdesign1.png");
+	background-image: url("img/graphicdesign3.png");
 	height: 375px;
 	width: 450px;
 	margin-top: 315px;
