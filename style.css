@@ -82,7 +82,7 @@ div#about{
 }
 
 div#port {
-	margin-top: 20px;
+	margin-top: 0px;
 	left: 20px;
 	z-index: 1007;
 }
@@ -619,6 +619,7 @@ h1#skills{
 	width:100%;
 	height:auto;
 	background-color:white;
+	padding-top: 20px;
 }
 .grid-wrap {
 	margin: 10px auto 0;
@@ -630,7 +631,7 @@ h1#skills{
 }
 h1#ptitle {
 font-size: 150px;
-margin-top: -57px;
+margin-top: -77px;
 margin-left: 253px;
 text-align: left;
 position: absolute;
@@ -958,7 +959,7 @@ div.summary{
 	width:100%;
 	height:auto;
 	overflow: hidden;
-
+	padding-top: 10px;
 	background-image: url("img/White_background_750_750.jpg");
 	background-size: cover;
 }
